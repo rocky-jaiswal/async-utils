@@ -1,4 +1,4 @@
-interface Condition<T> {
+export interface Condition<T> {
   whenTrue: (input: T) => boolean
   thenDo: (input: T) => Promise<T>
 }
