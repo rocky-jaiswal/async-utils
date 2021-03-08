@@ -1,0 +1,1 @@
+{"version":3,"file":"runConditionally.js","sourceRoot":"","sources":["../src/runConditionally.ts"],"names":[],"mappings":";;AAKA,MAAM,gBAAgB,GAAG,CAAI,SAAuB,EAAE,EAAE,CAAC,KAAK,EAAE,KAAQ,EAAE,EAAE;IAC1E,IAAI,SAAS,CAAC,QAAQ,CAAC,KAAK,CAAC,EAAE;QAC7B,OAAO,MAAM,SAAS,CAAC,MAAM,CAAC,KAAK,CAAC,CAAA;KACrC;IAED,OAAO,KAAK,CAAA;AACd,CAAC,CAAA;AAED,kBAAe,gBAAgB,CAAA"}
