@@ -1,7 +1,2 @@
-import pipeAsync from './pipeAsync'
-import runConditionally from './runConditionally'
-
-export default {
-  pipeAsync,
-  runConditionally,
-}
+export { default as pipeAsync } from './pipeAsync'
+export { default as runConditionally } from './runConditionally'
