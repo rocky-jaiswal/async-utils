@@ -1,8 +1,10 @@
+import delay from '../delay'
 import pipeAsync from '../pipeAsync'
 
 describe('pipeAsync', () => {
-  const delay = (ms: number) =>
-    new Promise((resolve) => setTimeout(resolve, ms))
+  test('a value resolves to itself', async () => {
+    expect(await pipeAsync((num: number) => Promise.resolve(num))(4)).toEqual(4)
+  })
 
   test('it waits for the chain', async () => {
     const arr: number[] = []

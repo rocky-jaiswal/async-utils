@@ -1,9 +1,10 @@
 {
   "name": "@rockyj/async-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
+  "repository": {"url": "https://github.com/rocky-jaiswal/async-utils"},
   "scripts": {
     "clean": "rm -rf dist/ && mkdir dist",
     "lint": "yarn eslint 'src/**/*'",
