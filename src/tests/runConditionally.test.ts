@@ -26,7 +26,7 @@ describe('runConditionally', () => {
 
     const res = await runConditionally<number[]>({
       whenTrue: (_: number[]) => true,
-      thenDo: pipeAsync(f1, f2, f3),
+      thenDo: pipeAsync(f1, f2, f3)
     })(arr)
 
     expect(res).toEqual([1, 2, 3])

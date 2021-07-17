@@ -28,7 +28,7 @@ describe('inParallelDo', () => {
     expect(await inParallelDo(f1, f2, f3)(state)).toEqual([
       { a: 1, b: 0, c: 0 },
       { a: 0, b: 2, c: 0 },
-      { a: 0, b: 0, c: 3 },
+      { a: 0, b: 0, c: 3 }
     ])
     console.timeEnd('inParallelDo')
   })
