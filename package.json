@@ -1,6 +1,6 @@
 {
   "name": "@rockyj/async-utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
@@ -31,6 +31,8 @@
   },
   "prettier": {
     "semi": false,
-    "singleQuote": true
+    "singleQuote": true,
+    "printWidth": 120,
+    "trailingComma": "none"
   }
 }
