@@ -13,8 +13,8 @@ const transformStateAsync =
   async (state: T): Promise<T> => {
     let s = state
     for (const fn of functions) {
-      const newState = await fn(s)
-      s = newState.nextState(s)
+      const result = await fn(s)
+      s = result.nextState(s)
     }
     return s
   }
